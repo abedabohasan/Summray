@@ -53,15 +53,23 @@ img {
 .header {
     grid-area: header;
     font-weight: 900;
-    margin-bottom: 5px;
-    
+    margin-top: 45px;
+    margin-bottom: 0%;
 }
 
 .paragraph {
     grid-area: paragraph;
     font-weight: 500;
     margin-top: 0%;
+    margin-bottom: 0%;
     opacity: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph p {
+    margin: 0%;
 }
 
 .plan {
