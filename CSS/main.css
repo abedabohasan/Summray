@@ -22,7 +22,6 @@
     grid-area: card;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    /* overflow: hidden; */
 }
 
 img {
@@ -90,7 +89,6 @@ img {
 
 .icon {
     grid-area: ico;
-    
 }
 
 .details {
